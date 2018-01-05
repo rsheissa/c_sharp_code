@@ -44,6 +44,17 @@
             </asp:TableRow>
             <asp:TableRow>
                 <asp:TableCell>
+                    <asp:Label ID="Label3" runat="server" Text="Seleccione una opción de la lista"
+                        Font-Bold="true">
+                    </asp:Label>
+                </asp:TableCell>
+                <asp:TableCell>
+                    <asp:DropDownList ID="ddlFilter" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlFilter_SelectedIndexChanged" Font-Bold="True">
+                    </asp:DropDownList>
+                </asp:TableCell>
+            </asp:TableRow>
+            <asp:TableRow>
+                <asp:TableCell>
                     <asp:Label ID="Titulo2" runat="server" Text="Introduzca el número del campo ''doc_id'' que desea eliminar"
                         Font-Bold="true">
                     </asp:Label>
@@ -55,9 +66,6 @@
                 <asp:TableCell>
                     <asp:Button ID="Button2" runat="server" Text="Borrar Campo" Font-Size="Large" OnClick="Button2_Click" />
                 </asp:TableCell>
-            </asp:TableRow>
-            <asp:TableRow>
-                
             </asp:TableRow>
         </asp:Table>
     </div>

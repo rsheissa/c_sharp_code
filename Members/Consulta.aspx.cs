@@ -23,6 +23,7 @@ public partial class Consulta : System.Web.UI.Page
   {
     BindPageNos();
     BindData(int.Parse(ddlPageNos.SelectedValue));
+    BindDataFilter();
     Button1.Enabled = false;
     Button2.Enabled = true;
     Button3.Enabled = true;
@@ -267,7 +268,6 @@ public partial class Consulta : System.Web.UI.Page
     using (MySqlConnection cn = new MySqlConnection(constr))
     {
       MySqlCommand cmd = new MySqlCommand(instruction, cn);
-      //MySqlCommand cmd = new MySqlCommand("SELECT COUNT(rfc_e) FROM cfdi_facturas", cn);
       cn.Open();
 
       object retTotal = cmd.ExecuteScalar();
@@ -299,6 +299,47 @@ public partial class Consulta : System.Web.UI.Page
     {
       GridView1.DataSource = dt;
       GridView1.DataBind();
+    }
+  }
+
+  private void BindDataFilter()
+  {
+    string constr = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
+    using (MySqlConnection cn = new MySqlConnection(constr))
+    {
+      // Se agrega un primer campo vacío a la lista
+      ddlFilter.Items.Add("");
+
+      // Abre conexión con la base de datos
+      cn.Open();
+
+      // Se seleccionan los valores del campo "identificador"
+      // que no sean vacíos
+      string query = "SELECT DISTINCT identificador FROM cfdi_facturas WHERE identificador != '' ;";
+
+      using (MySqlCommand cmd = new MySqlCommand(query, cn))
+      {
+        using (var reader = cmd.ExecuteReader())
+        {
+          // Iterate through the rows and add it to the dropdownlist
+          while (reader.Read())
+          {
+            ddlFilter.Items.Add(reader.GetString("identificador"));
+          }
+        }
+      }
+    }
+  }
+
+  protected void ddlFilter_SelectedIndexChanged(object sender, EventArgs e)
+  {
+    if (ddlFilter.Text == "")
+    {
+      EstatusLabel.Text = "El valor seleccionado es: VACIO";
+    }
+    else
+    {
+      EstatusLabel.Text = "El valor seleccionado es: " + ddlFilter.Text;
     }
   }
 }
