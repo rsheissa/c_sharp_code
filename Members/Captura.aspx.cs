@@ -286,9 +286,4 @@ public partial class Captura : System.Web.UI.Page
   {
     IdentiTextBox.Text = string.Empty;
   }
-
-  protected void QrTextChanged(object sender, EventArgs e)
-  {
-    
-  }
 }
