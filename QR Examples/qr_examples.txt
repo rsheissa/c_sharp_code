@@ -1,0 +1,22 @@
+QR Version 3.3
+https://verificacfdi.facturaelectronica.sat.gob.mx/default.aspx?id=CFBA0A09-918D-4D57-96A9-00C247A9898E&re=AVI130823Q46&rr=BAAR6203153Z0&tt=500000.00&fe=ArOduA==
+
+QR Version 3.3 (Variacion)
+https://verificacfdi.facturaelectronica.sat.gob.mx/default.aspx?&id=fe8f2a54-e8b1-4db0-b1c8-541badde0f44&re=AMN150723CMA&rr=VEAL690518IE9&tt=138750.00&fe=4o3xtA==
+
+https://verificacfdi.facturaelectronica.sat.gob.mx/default.aspx?&Id=6485118A-17EC-4ECF-833E-C9E26E56684F&re=AGS1409081J8&rr=BELM691013F51&tt=0000144,450.000000&fe=TMGRnX4=
+
+https://verificacfdi.facturaelectronica.sat.gob.mx/default.aspx?&Id=61639531-87E3-4BB2-A681-14E2B4977664&re=AGS1409081J8&rr=DOPF730821BG3&tt=0000144,450.000000&fe=8cSY6Vw=
+
+https://verificacfdi.facturaelectronica.sat.gob.mx/default.aspx?&Id=77C0BCD1-FBD6-43BE-8125-32B355108F4A&re=AGS1409081J8&rr=BAMS740129S80&tt=0000110,800.000000&fe=llqTqvA=
+
+QR Version 3.2
+?re=AVI130823Q46&rr=RAMH611008NQA&tt=0000500000.000000&id=E765C8A2-941A-4F36-81B4-237249A60617
+
+Da problemas
+?re=MECG750529CB7&rr=XACP330629V99&tt=0000174000.000000&id=23db214d-4c1d-43c8-9123-5fc1c8eea441
+?re=MECG750529CB7&rr=POCM640602Q17&tt=0000137751.000000&id=816d23bd-257d-47e9-93f7-5d7e76d3b752
+?re=MECG750529CB7&rr=ROMC451214P60&tt=0000101494.800000&id=a80398e2-cb67-4ca7-863b-ced512b5f149
+
+Opinion fiscal
+https://siat.sat.gob.mx/app/qr/faces/pages/mobile/validadorqr.jsf?D1=1&D2=1&D3=17NB7519080_GAHR390402Q56_03-11-2017_P

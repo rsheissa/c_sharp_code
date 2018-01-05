@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SEDARPA_v03", "..\..\..\..\Dropbox\Development\c_sharp\SEDARPA_v03\", "{46A8F0BF-7B29-47B9-9A6B-F0272948939D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50513"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\Development\c_sharp\SEDARPA_v03\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50513\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50513"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Dropbox\Development\c_sharp\SEDARPA_v03\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50513\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50513"
+		SlnRelativePath = "..\..\..\..\Dropbox\Development\c_sharp\SEDARPA_v03\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46A8F0BF-7B29-47B9-9A6B-F0272948939D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A8F0BF-7B29-47B9-9A6B-F0272948939D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E09E0DB7-128C-4FE1-8C18-E7099CE48852}
+	EndGlobalSection
+EndGlobal
