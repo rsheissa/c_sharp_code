@@ -42,7 +42,7 @@
                     <asp:Button ID="Button4" runat="server" Text="Filtrar" Font-Size="Large" OnClick="Filtrar_Identificador" />
                 </asp:TableCell>
             </asp:TableRow>
-            <asp:TableRow>
+            <asp:TableRow ID="Filtro" runat="server">
                 <asp:TableCell>
                     <asp:Label ID="Label3" runat="server" Text="Seleccione una opción de la lista"
                         Font-Bold="true">

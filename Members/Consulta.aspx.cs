@@ -16,6 +16,7 @@ public partial class Consulta : System.Web.UI.Page
       Button3.Enabled = false;
       DeleteTextBox.Enabled = false;
       EstatusLabel.Text = string.Empty;
+      Filtro.Visible = false;
     }
   }
 
@@ -28,6 +29,7 @@ public partial class Consulta : System.Web.UI.Page
     Button2.Enabled = true;
     Button3.Enabled = true;
     DeleteTextBox.Enabled = true;
+    Filtro.Visible = true;
   }
 
   private void BindPageNos()
