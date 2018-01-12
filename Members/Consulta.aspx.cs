@@ -16,7 +16,10 @@ public partial class Consulta : System.Web.UI.Page
       Button3.Enabled = false;
       DeleteTextBox.Enabled = false;
       EstatusLabel.Text = string.Empty;
-      Filtro.Visible = false;
+      ActualizaFecha.Visible = false;
+      FiltroManual.Visible = false;
+      ListaFiltro.Visible = false;
+      BorraRegistro.Visible = false;
     }
   }
 
@@ -28,8 +31,11 @@ public partial class Consulta : System.Web.UI.Page
     Button1.Enabled = false;
     Button2.Enabled = true;
     Button3.Enabled = true;
-    DeleteTextBox.Enabled = true;
-    Filtro.Visible = true;
+    //DeleteTextBox.Enabled = true;
+    ActualizaFecha.Visible = true;
+      FiltroManual.Visible = true;
+      ListaFiltro.Visible = true;
+      BorraRegistro.Visible = true;
   }
 
   private void BindPageNos()
